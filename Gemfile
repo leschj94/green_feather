@@ -18,6 +18,10 @@ end
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
 
+#formating CSS
+gem 'simple_form'
+gem 'foundation-rails', '5.0.3.1'
+
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 
@@ -38,6 +42,9 @@ gem 'jbuilder', '~> 1.2'
 
 group :doc do
   gem 'sdoc', '0.3.20', require: false
+end
+group :development do
+  gem 'rails_layout'
 end
 
 group :production do
