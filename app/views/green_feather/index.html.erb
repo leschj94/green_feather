@@ -8,41 +8,44 @@
     </head>
     <body>
         <div class="row">
-          <div class="large-4 small-6 columns">
+          <div class="large-5 small-8 columns">
             <div class="card">
               <div class="container">
                 <div class="front">
-                  <img src="http://placehold.it/400x600">
+                    <%= image_tag "norris.jpg" %>
                 </div>
                 <div class="back">
                   <h5>Photography</h5>
                   <p>This card will be where customers can enter Greenfeather's photography page</p>
+                    <%= link_to "Enter Photography", sites_photos_url, class: "fancy radius button" %>
                 </div>
               </div>
             </div>
           </div>
-          <div class="large-4 small-6 columns">
+          <div class="large-5 small-8 columns">
             <div class="card">
               <div class="container">
                 <div class="front">
-                  <img src="http://placehold.it/400x600">
+                    <%= image_tag "ace.jpg" %>
                 </div>
                 <div class="back">
                   <h5>Photobooth</h5>
                   <p>This card will be where customers can enter Greenfeather's photo booth rental page</p>
+                    <%= link_to "Enter Photo Booth", sites_booth_url, class: "fancy radius button" %>
                 </div>
               </div>
             </div>
           </div>
-          <div class="large-4 small-6 columns">
+          <div class="large-5 small-8 columns">
             <div class="card">
               <div class="container">
                 <div class="front">
-                  <img src="http://placehold.it/400x600">
+                    <%= image_tag "robot.jpg" %>
                 </div>
                 <div class="back">
                   <h5>PhotoEditing</h5>
                   <p>This card will be where customers can have their person photos edited</p>
+                    <%= link_to "Enter Photo Editing", sites_edit_url, class: "fancy radius button" %>
                 </div>
               </div>
             </div>

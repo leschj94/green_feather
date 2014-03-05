@@ -47,7 +47,7 @@
 }
 
 .card .container {
-  border: solid 1px #eeeeee;
+  border: solid 1px #FFFFFF;
 }
 
 .card .container .front, .card .container .back {
@@ -58,4 +58,97 @@
   width: 100%;
   height: 0;
   padding-bottom: 100%;
+}
+
+.row, section {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  max-width: 100rem;
+  *zoom: 1; }
+.row:before, section:before, .row:after, section:after {
+  content: " ";
+  display: table; }
+.row:after, section:after {
+  clear: both; }
+.row.collapse > .column, section.collapse > .column,
+.row.collapse > .columns,
+section.collapse > .columns,
+.row.collapse > .column,
+section.collapse > .column,
+.row.collapse > .form-centered,
+section.collapse > .form-centered,
+.row.collapse > main,
+section.collapse > main {
+  position: relative;
+  padding-left: 0;
+  padding-right: 0;
+  float: left; }
+.row.collapse .row, section.collapse .row, .row.collapse section, section.collapse section {
+  margin-left: 0;
+  margin-right: 0; }
+.row .row, section .row, .row section, section section {
+  width: auto;
+  margin-left: -0.9375rem;
+  margin-right: -0.9375rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  max-width: none;
+  *zoom: 1; }
+.row .row:before, section .row:before, .row section:before, section section:before, .row .row:after, section .row:after, .row section:after, section section:after {
+  content: " ";
+  display: table; }
+.row .row:after, section .row:after, .row section:after, section section:after {
+  clear: both; }
+.row .row.collapse, section .row.collapse, .row section.collapse, section section.collapse {
+  width: auto;
+  margin: 0;
+  max-width: none;
+  *zoom: 1; }
+.row .row.collapse:before, section .row.collapse:before, .row section.collapse:before, section section.collapse:before, .row .row.collapse:after, section .row.collapse:after, .row section.collapse:after, section section.collapse:after {
+  content: " ";
+  display: table; }
+.row .row.collapse:after, section .row.collapse:after, .row section.collapse:after, section section.collapse:after {
+  clear: both; }
+
+.large-5 {
+  position: relative;
+  width: 32.999999%; }
+
+.fancy.button {
+  background-color: #fff;
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFFFFFFF', endColorstr='#FFEFEFEF');
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(73%, #f7f7f7), color-stop(100%, #efefef));
+  background-image: -webkit-linear-gradient(top, #ffffff 0%, #f7f7f7 73%, #efefef 100%);
+  background-image: -moz-linear-gradient(top, #ffffff 0%, #f7f7f7 73%, #efefef 100%);
+  background-image: -o-linear-gradient(top, #ffffff 0%, #f7f7f7 73%, #efefef 100%);
+  background-image: linear-gradient(top, #ffffff 0%, #f7f7f7 73%, #efefef 100%);
+  border: 1px solid rgba(52, 73, 94, 0.2);
+  color: rgba(52, 152, 219, 0.7);
+  font-size: 0.75em;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+.fancy.button:hover {
+  color: #3498db;
+  background-color: #fff;
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFFFFFFF', endColorstr='#FFEDEDED');
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(73%, #efefef), color-stop(100%, #ededed));
+  background-image: -webkit-linear-gradient(top, #ffffff 0%, #efefef 73%, #ededed 100%);
+  background-image: -moz-linear-gradient(top, #ffffff 0%, #efefef 73%, #ededed 100%);
+  background-image: -o-linear-gradient(top, #ffffff 0%, #efefef 73%, #ededed 100%);
+  background-image: linear-gradient(top, #ffffff 0%, #efefef 73%, #ededed 100%);
+  border-color: rgba(52, 73, 94, 0.3);
+  -webkit-box-shadow: 0px 0px 6px rgba(52, 73, 94, 0.1);
+  -moz-box-shadow: 0px 0px 6px rgba(52, 73, 94, 0.1);
+  box-shadow: 0px 0px 6px rgba(52, 73, 94, 0.1);
+}
+.fancy.button:active {
+  -webkit-box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1) inset;
+  -moz-box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1) inset;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1) inset;
 }
